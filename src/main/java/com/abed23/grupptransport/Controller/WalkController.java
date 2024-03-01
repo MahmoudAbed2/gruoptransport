@@ -68,7 +68,9 @@ public class WalkController {
             return ResponseEntity.notFound().build();
         }
     }
-
+    
+//Category1
+    //https://spring-azure-group3.azurewebsites.net/api/v1/routes
     @GetMapping("/search/{start}/{end}")
     public ResponseEntity<List<WalkModel>> searchRoute(@PathVariable("start") String start,
                                                        @PathVariable("end") String end) {
